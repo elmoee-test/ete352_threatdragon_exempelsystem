@@ -179,18 +179,25 @@
               "angle": 0,
               "id": "8884e768-7353-4e0a-ac85-8779e5c912ae",
               "z": 14,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "description": "",
-              "threats": [],
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "henlo"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Kundhantering"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -490,17 +497,25 @@
               "angle": 0,
               "id": "112d1fee-d583-443c-bc7e-5aaeb03635b9",
               "z": 25,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "description": "Dator",
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "henlo2",
+                  "type": "Elevation of privilege"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Kontorsenhet"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -807,12 +822,53 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 753,
+                "y": 404
+              },
+              "target": {
+                "x": 751,
+                "y": 406
+              },
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 359
+                },
+                {
+                  "x": 463,
+                  "y": 56
+                },
+                {
+                  "x": 754,
+                  "y": 28
+                },
+                {
+                  "x": 971,
+                  "y": 28
+                },
+                {
+                  "x": 1128,
+                  "y": 100
+                },
+                {
+                  "x": 1041,
+                  "y": 359
+                }
+              ],
+              "id": "13dbfdcd-26ba-4b9d-ad93-ee974bdb94b7",
+              "z": 36,
+              "attrs": {}
             }
           ]
         },
         "size": {
           "height": 600,
-          "width": 1105
+          "width": 1173
         }
       }
     ]
